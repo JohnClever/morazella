@@ -1,0 +1,5 @@
+{
+    "github.customPullRequestTitle": true,
+    "github.autoPublish": true,
+    "github.allowUnsafeSSL": true
+}
