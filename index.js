@@ -24,6 +24,7 @@ var homeFunc = function () {
     document.querySelector('.loader').style.display = 'none';
     document.querySelector('.header').style.display = 'block';
     document.querySelector('.select').style.display = 'none';
+    document.querySelector('.header_footer').style.display = 'block';
 }
 }
 
