@@ -43,7 +43,7 @@
         height: 50px;
         background: #111;
         z-index: 1000;
-        margin-top: 10px;
+        padding-top: 20px;
     }
     .header .navbar img{
         position: absolute;
