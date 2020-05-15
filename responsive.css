@@ -12,19 +12,19 @@
     body{
         margin: 0;
         box-sizing: border-box;
-        background: #111;
+        background: green;
         font-family: jay;
         padding: 0;
         overflow: hidden;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
     }
     a{
         text-decoration: none;
         color: #fff;
     }
     .container{
-        margin-top: 2px;
+        margin-top: 5px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -41,7 +41,7 @@
     }
     .header .navbar{
         width: 100%;
-        height: 35px;
+        height: 45px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         background: #fff;
@@ -50,9 +50,9 @@
     }
     .header .navbar img{
         position: absolute;
-        top: 20px;
-        width: 20%;
-        height: 5%;
+        top: 25px;
+        width: 30%;
+        height: 10%;
         padding-top: 0px;
     }
     header{
@@ -206,28 +206,28 @@
         width: 90%;
         height: 50%;
         position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 10px;
+        border-radius: 5px;
     }
     .cate_items_two .item_image{
         width: 90%;
         height: 50%;
         position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 10px;
+        border-radius: 5px;
     }
     .cate_items_three .item_image{
         width: 90%;
         height: 50%;
         position: absolute;
-        top: 55%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 10px;
+        border-radius: 5px;
     }
      .header_footer{
         width: 100%;
@@ -290,19 +290,19 @@
     }
     .select .navbar{
         width: 100%;
-        height: 35px;
+        height: 45px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         background: #fff;
         z-index: 1000;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .select .navbar img{
         position: absolute;
-        top: 20px;
-        width: 20%;
-        height: 5%;
-        padding-top: 0px;
+        top: 25px;
+        width: 30%;
+        height: 10%;
+        padding-top: 15px;
     }
     .select .navbar_below{
         width: 100%;
