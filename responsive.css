@@ -60,6 +60,7 @@
         transition: 1s;
     }
     header .img_slide{ 
+        
         width: 100%;
         height: 45vh;
         background-image: url(images/img_1.jpeg);
@@ -125,7 +126,7 @@
         position: absolute;
         top: 60%;
         width: 100%;
-        height: 35vh;
+        height: 30vh;
         border-top: 1px solid #fff;
         
     }
@@ -149,9 +150,11 @@
         position: absolute;
     }
     .categories .items{
+        position: absolute;
+        top: 0px;
         width: 100%;
         height: 90%;
-        background-color: #04b1fc;
+        /* background-color: #04b1fc; */
         padding-bottom: 10px;
     }
     .item{
@@ -227,16 +230,18 @@
         height: 50px;
         background: #222;
         position: absolute;
-        top: 96.5%;
+        top: 96%;
         left: 50%;
         transform: translate(-50%, -50%);
+        
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10px;
-        
+       
+        display: block;
     }
     .header_footer p{
+        padding-top: 10px;
         display: flex;
         justify-content: center;
         text-align: center;
