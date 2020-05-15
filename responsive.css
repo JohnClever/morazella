@@ -41,7 +41,7 @@
     .header .navbar{
         width: 100%;
         height: 50px;
-        background: #111;
+        background: #fff;
         z-index: 1000;
         padding-top: 20px;
     }
