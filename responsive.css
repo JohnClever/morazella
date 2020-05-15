@@ -291,20 +291,23 @@
     }
     .select .navbar{
         width: 100%;
-        height: 50px;
-        background: #111;
-        border-bottom: 1px solid #fff;
+        height: 45px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: #fff;
         z-index: 1000;
+        margin-top: 10px;
     }
     .select .navbar img{
         position: absolute;
         top: 25px;
         width: 30%;
         height: 10%;
+        padding-top: 15px;
     }
     .select .navbar_below{
         width: 100%;
-        height: 50px;
+        height: 40px;
         background: #111;
     }
     .select .navbar_below .icon{
@@ -324,6 +327,7 @@
         justify-content: center;
         align-content: center;
         border-right: 1px solid #fff;
+        font-size: 12px;
     }
     .select .navbar_below .icon_two{
         width: 37%;
@@ -335,7 +339,7 @@
         justify-content: center;
         align-content: center;
         border-right: 1px solid #fff;
-        font-size: 20px;
+        font-size: 12px;
     }
     .select .navbar_below .icon_three{
         width: 25%;
@@ -346,10 +350,9 @@
         align-items: center;
         justify-content: center;
         align-content: center;
-        font-size: 20px;
+        font-size: 12px;
        
-    }
-    
+    }    
      h3{
         padding-left: 30px;
         padding-bottom: 10px;
@@ -357,12 +360,23 @@
         font-size: 20px;
         letter-spacing: 1px;
         color: #fff;
+        
     }
-    
+    .select .carousel{
+        margin-top: -5px;
+        width: 98%;
+        height: 65vh;
+        /* background-color: red; */
+        overflow: hidden;
+        overflow-x: scroll;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
    .select .carousel_first{
        width: 98%;
-       height: 33vh;
-       /* background-color: #fff; */
+       height: 30vh;
+       /* background-color: #04b1fc; */
        overflow: hidden;
        overflow-x: scroll;
        position: absolute;
@@ -414,18 +428,19 @@
     } 
     .select .carousel_second{
         width: 98%;
-        height: 40vh;
+        height: 31vh;
         overflow: hidden;
         border-top: 1px solid #fff;
         position: absolute;
         left: 50%;
         top: 75%;
         transform: translate(-50%, -50%);
+        /* background-color: #fff; */
     }  
     .select .carousel_second .caro_slide{
         
         width: 100%;
-        height: 37vh;
+        height: 30vh;
         overflow: hidden;
         overflow-x: scroll;
         /* background-color: #fff; */
@@ -459,28 +474,32 @@
     .select .carousel_first .content a{
         margin-top:5px;
         font-family: sans-serif;
-        font-size: 23px;
+        font-size: 15px;
         letter-spacing: 1px;
         color: #04b1fc;
+        padding-left: 10px;
     }
     .select .carousel_first .content p{
         color: pink;
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 13px;
         letter-spacing: 1px;
+        padding-left: 10px;
     }
     .select .carousel_second .content a{
         margin-top:5px;
         font-family: sans-serif;
-        font-size: 23px;
+        font-size: 15px;
         letter-spacing: 1px;
         color: #04b1fc;
+        padding-left: 10px;
     }
     .select .carousel_second .content p{
         color: pink;
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         letter-spacing: 1px;
+        padding-left: 10px;
     }
     .cont_details{
         width: 100%;
