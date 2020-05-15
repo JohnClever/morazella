@@ -367,8 +367,8 @@
         width: 98%;
         height: 65vh;
         /* background-color: red; */
-        overflow: hidden;
-        overflow-x: scroll;
+        overflow: scroll;
+       
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
