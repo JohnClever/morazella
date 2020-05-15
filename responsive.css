@@ -43,14 +43,14 @@
         height: 50px;
         background: #fff;
         z-index: 1000;
-        padding-top: 20px;
+        margin-top: 10px;
     }
     .header .navbar img{
         position: absolute;
         top: 25px;
         width: 30%;
         height: 10%;
-        padding-bottom: 5px;
+        padding-top: 10px;
     }
     header{
         position: absolute;
