@@ -34,7 +34,7 @@
         background: #111;
         height: 90vh;
         border-radius: 5px;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
     header{
         display: block;
@@ -378,7 +378,6 @@
        height: 30vh;
        /* background-color: #04b1fc; */
        overflow: hidden;
-       overflow-y: scroll;
        overflow-x: scroll;
        position: absolute;
        left: 50%;
