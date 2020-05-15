@@ -11,12 +11,10 @@
     }
     body{
         margin: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
         box-sizing: border-box;
         background: #111;
         font-family: jay;
-        padding: 10px;
+        padding: 0;
       overflow: hidden;
         width: 100%;
         height: 90vh;
@@ -26,13 +24,14 @@
         color: #fff;
     }
     .container{
+        margin-top: 10px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 95%;
         background: #111;
-        height: 90vh;
+        height: 100vh;
         border-radius: 5px;
         /* overflow-y: hidden; */
     }
@@ -47,14 +46,14 @@
         border-top-right-radius: 10px;
         background: #fff;
         z-index: 1000;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .header .navbar img{
         position: absolute;
         top: 25px;
         width: 30%;
         height: 10%;
-        padding-top: 15px;
+        padding-top: 0px;
     }
     header{
         position: absolute;
@@ -65,9 +64,9 @@
         transition: 1s;
     }
     header .img_slide{ 
-        margin-top: 5px;
+        margin-top: 2px;
         width: 100%;
-        height: 45vh;
+        height: 50vh;
         background-image: url(images/img_1.jpeg);
         background-position: center;
         border-radius: 3px;
