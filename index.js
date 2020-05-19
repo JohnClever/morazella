@@ -25,7 +25,7 @@
     document.querySelector('.header').style.display = 'none';
     document.querySelector('.select').style.display = 'block';
     document.querySelector('.blog').style.display = 'none';
-    document.querySelector('.header_footer').style.display = 'block';
+    document.querySelector('.header_footer').style.display = 'none';
 
 }
 var homeFunc = function () {
