@@ -29,7 +29,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 95%;
-        background: red;
+        background: #000;
         height: 90vh;
         border-radius: 5px;
         /* overflow-y: hidden; */
