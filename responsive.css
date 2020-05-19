@@ -15,7 +15,7 @@
         background: #111;
         font-family: jay;
         padding: 0;
-      overflow: hidden;
+        overflow: hidden;
         width: 100%;
         height: 90vh;
     }
@@ -33,9 +33,10 @@
         height: 90vh;
         border-radius: 5px;
         /* overflow-y: hidden; */
+      
     }
     header{
-        display: block;
+        display: none;
         overflow: hidden;
     }
     .header .navbar{
@@ -502,6 +503,121 @@
     .cont_details{
         width: 100%;
     }
-    
+    .blog{
+        display: block;
+        overflow: hidden;
+    }
+    .blog .navbar{
+        width: 100%;
+        height: 45px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: #fff;
+        z-index: 1000;
+        margin-top: 10px;
+    }
+    .blog .navbar img{
+        position: absolute;
+        top: 25px;
+        width: 30%;
+        height: 10%;
+        padding-top: 15px;
+    }
+    .blog .navbar_below{
+        width: 100%;
+        height: 40px;
+        background: #111;
+    }
+    .blog .navbar_below .icon{
+       
+        color: #fff;
+        float: left;
+       
+    }
+    .blog .navbar_below .icon_one{
+        width: 37%;
+        height: 60%;
+        text-align: center; 
+        margin-top: 5px; 
+        /* padding-left: 35px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border-right: 1px solid #fff;
+        font-size: 12px;
+    }
+    .blog .navbar_below .icon_two{
+        width: 37%;
+        height: 60%;
+        margin-top: 5px; 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border-right: 1px solid #fff;
+        font-size: 12px;
+    }
+    .blog .navbar_below .icon_three{
+        width: 25%;
+        height: 60%;
+        margin-top: 5px; 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        font-size: 12px;
+       
+    }    
+     h3{
+        padding-left: 30px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: #fff;
+        
+    }
+    .blog .blog_content{
+        width: 100%;
+        height: 65vh;
+        background-color: #fff;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+    .blog .blog_content_header{
+        width: 100%;
+        height: 30px;
+
+    }
+    .blog .blog_content_header ul{
+        width: 330px;
+        height: 43px;
+        list-style: none;
+        border: 1px solid #000;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .blog .blog_content_header ul li{
+        float: left;
+        width: 70px;
+        text-align: center;
+        height: 30px;
+        margin: 5px;
+        border: 1px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 10px; */
+       
+    }
+    .blog .blog_content_header ul li a{
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+    }
 }
 
