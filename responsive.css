@@ -33,6 +33,7 @@
         height: 90vh;
         border-radius: 5px;
         /* overflow-y: hidden; */
+        
       
     }
     header{
@@ -438,6 +439,7 @@
         left: 50%;
         top: 75%;
         transform: translate(-50%, -50%);
+       
         /* background-color: #fff; */
     }  
     .select .carousel_second .caro_slide{
@@ -484,6 +486,7 @@
         letter-spacing: 1px;
         color: #04b1fc;
         padding-left: 10px;
+        z-index: 1000;
     }
     .select .carousel_first .content p{
         color: pink;
@@ -491,6 +494,8 @@
         font-size: 13px;
         letter-spacing: 1px;
         padding-left: 10px;
+        z-index: 1000;
+
     }
     .select .carousel_second .content a{
         margin-top:5px;
@@ -499,6 +504,8 @@
         letter-spacing: 1px;
         color: #04b1fc;
         padding-left: 10px;
+        z-index: 1000;
+
     }
     .select .carousel_second .content p{
         color: pink;
@@ -506,6 +513,8 @@
         font-size: 15px;
         letter-spacing: 1px;
         padding-left: 10px;
+        z-index: 1000;
+
     }
     .cont_details{
         width: 100%;
@@ -645,7 +654,7 @@
     /* .news_p{
         padding: 2px;
         margin-bottom: 5px;
-        border-top-left-radius: 15px;
+        clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%, 0 30%);
        
     } */
     .blog .blog_content_header a{
@@ -666,7 +675,7 @@
     .blog .blog_content_details{
         width: 95%;
         margin: 10px;
-        min-height: 1800px;
+        /* min-height: 1800px; */
         font-family: sans-serif;
         color: #000;
         text-align: center;
