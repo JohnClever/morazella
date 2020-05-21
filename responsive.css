@@ -28,7 +28,7 @@
         top: 49%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 95%;
+        width: 99%;
         background: #111;
         height: 90vh;
         border-radius: 5px;
@@ -251,7 +251,7 @@
         text-align: center;
         color: rgba(255, 255, 255, 0.2);
         letter-spacing: 1px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .item_image img{
         position: absolute;
