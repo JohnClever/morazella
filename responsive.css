@@ -522,6 +522,7 @@
     .blog{
         display: none;
         overflow: hidden;
+        position: static;
     }
     .blog .navbar{
         width: 100%;
