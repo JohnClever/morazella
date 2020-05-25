@@ -28,10 +28,10 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 99%;
+        width: 100%;
         border: none;
         background: #111;
-        height: 90vh;
+        height: 100vh;
         /* border-radius: 5px; */
         /* overflow-y: hidden; */
         /* padding-top: 20px; */
