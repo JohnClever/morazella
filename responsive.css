@@ -34,7 +34,7 @@
         height: 100vh;
         /* border-radius: 5px; */
         /* overflow-y: hidden; */
-        margin-top: 20px;
+        margin-top: 25px;
       
     }
     header{
@@ -58,7 +58,7 @@
         transform: translateX(-50%);
         width: 30%;
         height: 10%;
-        /* top: -5px; */
+        top: -10px;
         
     }
     header{
