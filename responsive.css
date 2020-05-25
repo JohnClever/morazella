@@ -12,7 +12,7 @@
     body{
         margin: 0;
         box-sizing: border-box;
-        background: #111;
+        background: #fff;
         font-family: jay;
         padding: 0;
         overflow: hidden;
@@ -29,11 +29,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 99%;
+        border: none;
         background: #111;
-        height: 100vh;
-        border-radius: 5px;
+        height: 90vh;
+        /* border-radius: 5px; */
         /* overflow-y: hidden; */
-        padding-top: 20px;
+        /* padding-top: 20px; */
       
     }
     header{
@@ -43,12 +44,13 @@
     }
     .header .navbar{
         width: 100%;
-        height: 45px;
+        border: none;
+        height: 50px;
         /* border-top-left-radius: 10px;
         border-top-right-radius: 10px; */
         background: #fff;
-        z-index: 1000;
-        margin-top: 5px;
+        /* z-index: 1000; */
+        /* margin-top: -5px; */
     }
     .header .navbar img{
         position: absolute;
@@ -56,7 +58,7 @@
         transform: translateX(-50%);
         width: 30%;
         height: 10%;
-        top: 3px;
+        top: 0px;
     }
     header{
         position: absolute;
