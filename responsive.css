@@ -34,7 +34,7 @@
         height: 100vh;
         /* border-radius: 5px; */
         /* overflow-y: hidden; */
-        padding-top: 20px;
+        margin-top: 20px;
       
     }
     header{
@@ -58,7 +58,8 @@
         transform: translateX(-50%);
         width: 30%;
         height: 10%;
-        top: 0px;
+        top: -10px;
+        
     }
     header{
         position: absolute;
