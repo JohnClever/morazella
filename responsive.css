@@ -377,7 +377,7 @@
     .select .carousel{
         margin-top: -5px;
         width: 98%;
-        height: 70vh;
+        height: 100vh;
         /* background-color: red; */
         overflow-y: scroll;
        
@@ -387,18 +387,19 @@
     }
    .select .carousel_first{
        width: 98%;
-       height: 32vh;
+       height: 33vh;
        /* background-color: #04b1fc; */
        overflow: hidden;
        overflow-x: scroll;
        position: absolute;
+       top: 0%;
        left: 50%;
        transform: translateX(-50%);
    }   
    .select .carousel_first .slider{
        width: 330%;
        background: transparent;
-       height: 90%;
+       height: 100%;
        display: flex;
        justify-content: center;
        align-content: center;
@@ -413,11 +414,16 @@
    }
    .select .carousel_first .slider .slide .img{
     width: 100%;
-    height: 75%;
+    height: 65%;
     /* background-color: #fff; */
     border-radius: 5px;
     margin-bottom: 5px;
    } 
+   .select .carousel_first .slider .slide .content{
+       /* background: #fff; */
+       width: 100%;
+        height: 100px;
+   }
    .select .carousel_first .slider .slide .img img{
        width: 100%;
        height: 100%;
@@ -443,21 +449,21 @@
     } 
     .select .carousel_second{
         width: 98%;
-        height: 31vh;
+        height: 35vh;
+        /* background-color: #04b1fc; */
         overflow: hidden;
-        border-top: 1px solid #fff;
+        overflow-x: scroll;
         position: absolute;
-        left: 50%;
-        margin-top: 70px;
+        /* margin-top: 10px; */
         top: 50%;
-        transform: translate(-50%, -50%);
-       
-        /* background-color: #fff; */
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-top: 1px solid #fff;
     }  
     .select .carousel_second .caro_slide{
         
         width: 100%;
-        height: 35vh;
+        height: 100%;
         overflow: hidden;
         overflow-x: scroll;
         /* background-color: #fff; */
@@ -467,7 +473,7 @@
         /* background: red; */
         position: relative;
         top: 10px;
-        height: 80%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -482,11 +488,16 @@
     }
     .select .carousel_second .slider .slide .img{
         width: 100%;
-        height: 75%;
+        height: 65%;
         background-color: #fff;
         border-radius: 5px;
         margin-bottom: 5px;
        } 
+       .select .carousel_second .slider .slide .content{
+        /* background: #fff; */
+        width: 100%;
+        height: 100px;
+    }
        .select .carousel_second .slider .slide .img img{
            width: 100%;
            height: 100%;
