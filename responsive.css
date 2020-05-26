@@ -387,7 +387,7 @@
     }
    .select .carousel_first{
        width: 98%;
-       height: 35vh;
+       height: 32vh;
        /* background-color: #04b1fc; */
        overflow: hidden;
        overflow-x: scroll;
@@ -398,7 +398,7 @@
    .select .carousel_first .slider{
        width: 330%;
        background: transparent;
-       height: 80%;
+       height: 90%;
        display: flex;
        justify-content: center;
        align-content: center;
