@@ -1,5 +1,6 @@
 {
     "github.customPullRequestTitle": true,
     "github.autoPublish": true,
-    "github.allowUnsafeSSL": true
+    "github.allowUnsafeSSL": true,
+    "prettier.singleQuote": true
 }
