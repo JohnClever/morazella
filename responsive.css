@@ -377,7 +377,7 @@
     .select .carousel{
         margin-top: -5px;
         width: 98%;
-        height: 65vh;
+        height: 70vh;
         /* background-color: red; */
         overflow-y: scroll;
        
@@ -387,7 +387,7 @@
     }
    .select .carousel_first{
        width: 98%;
-       height: 30vh;
+       height: 35vh;
        /* background-color: #04b1fc; */
        overflow: hidden;
        overflow-x: scroll;
@@ -397,8 +397,8 @@
    }   
    .select .carousel_first .slider{
        width: 330%;
-       /* background: red; */
-       height: 100%;
+       background: transparent;
+       height: 80%;
        display: flex;
        justify-content: center;
        align-content: center;
@@ -409,12 +409,12 @@
       margin-left: 5px;
       margin-right: 5px;
       height: 100%;
-      /* background-color: #fff; */
+      background-color: transparent;
    }
    .select .carousel_first .slider .slide .img{
     width: 100%;
     height: 75%;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 5px;
     margin-bottom: 5px;
    } 
@@ -448,7 +448,7 @@
         border-top: 1px solid #fff;
         position: absolute;
         left: 50%;
-        top: 75%;
+        top: 70%;
         transform: translate(-50%, -50%);
        
         /* background-color: #fff; */
@@ -456,7 +456,7 @@
     .select .carousel_second .caro_slide{
         
         width: 100%;
-        height: 30vh;
+        height: 35vh;
         overflow: hidden;
         overflow-x: scroll;
         /* background-color: #fff; */
@@ -466,7 +466,7 @@
         /* background: red; */
         position: relative;
         top: 10px;
-        height: 100%;
+        height: 80%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -521,7 +521,7 @@
     .select .carousel_second .content p{
         color: pink;
         font-family: sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 1px;
         padding-left: 10px;
         z-index: 1000;
