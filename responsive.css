@@ -448,7 +448,8 @@
         border-top: 1px solid #fff;
         position: absolute;
         left: 50%;
-        top: 70%;
+        margin-top: 70px;
+        top: 50%;
         transform: translate(-50%, -50%);
        
         /* background-color: #fff; */
