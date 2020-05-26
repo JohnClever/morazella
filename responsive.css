@@ -38,7 +38,7 @@
       
     }
     header{
-        display: none;
+        display: block;
         overflow: hidden;
         position: static;
     }
@@ -542,7 +542,7 @@
         width: 100%;
     }
     .blog{
-        display: block;
+        display: none;
         overflow: hidden;
         position: static;
     }
