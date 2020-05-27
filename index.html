@@ -41,7 +41,7 @@
                 <div class="cate_items_three item">
                     <p>Event</p>
                     <div class="item_image">
-                        <a href="#"><img src="images/event.png" alt=""></a>
+                        <a href="#" onclick="setTimeout(eventFunc, 1000)" class="toggleEvent"><img src="images/event.png" alt=""></a>
                     </div>
                 </div>
            </div>
@@ -59,7 +59,7 @@
                 <a href="#" class="toggleHomeBlog"  onclick="setTimeout(blogFunc, 1000)"><p>Blog by Fidel</p></a>
             </div>
             <div class="icon icon_three">
-               <a href="#" class="toggleEvent"> <p>Events</p></a>
+               <a href="#" onclick="setTimeout(eventFunc, 1000)" class="toggleEventSer"> <p>Events</p></a>
             </div>
         </div>
         <h3>Our Select</h3>
@@ -210,7 +210,7 @@
                 <a href="#" onclick="setTimeout(myFunc, 1000)" class="toggleBlogServ"><p>Our Select</p></a>
             </div>
             <div class="icon icon_three">
-               <a href="#" class="toggleEvent"> <p>Events</p></a>
+               <a href="#" onclick="setTimeout(eventFunc, 1000)" class="toggleEventBlg"> <p>Events</p></a>
             </div>
         </div>
         <h3>Blog by Fidel</h3>
@@ -265,6 +265,25 @@
                 <div class="blog_content_details details_lifestyle">
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="event">
+        <div class="navbar">
+            <img src="images/MOZE-04.png" alt="">
+        </div>
+        <div class="navbar_below">
+            <div class="icon icon_one">
+              <a href="#" class="toggleEventHome" onclick="setTimeout(homeFunc, 500)"><p><</p></a>
+            </div>
+            <div class="icon icon_two">
+                <a href="#" onclick="setTimeout(myFunc, 1000)" class="toggleEventServ"><p>Our Select</p></a>
+            </div>
+            <div class="icon icon_three">
+               <a href="#" class="toggleEventBlog"  onclick="setTimeout(blogFunc, 1000)"> <p>Blog</p></a>
+            </div>
+        </div>
+        <div class="event_details">
+            
         </div>
     </section>
   </div>

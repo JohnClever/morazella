@@ -38,7 +38,7 @@
       
     }
     header{
-        display: block;
+        display: none;
         overflow: hidden;
         position: static;
     }
@@ -728,6 +728,83 @@
         width: 100%;
         height: 100%; 
        
+    }
+    .event{
+        display: block;
+        overflow: hidden;
+        position: static;
+    }
+    .event .navbar{
+        width: 100%;
+        border: none;
+        height: 50px;
+        /* border-top-left-radius: 10px;
+        border-top-right-radius: 10px; */
+        background: #fff;
+        /* z-index: 1000; */
+        /* margin-top: 5px; */
+    }
+    .event .navbar img{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 5px;
+        width: 30%;
+        height: 10%;
+        top: -10px;
+
+    }
+    .event .navbar_below{
+        width: 100%;
+        height: 40px;
+        background: #111;
+    }
+    .event .navbar_below .icon{
+       
+        color: #fff;
+        float: left;
+       
+    }
+    .event .navbar_below .icon_one{
+        width: 37%;
+        height: 60%;
+        text-align: center; 
+        margin-top: 5px; 
+        /* padding-left: 35px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border-right: 1px solid #fff;
+        font-size: 12px;
+    }
+    .event .navbar_below .icon_two{
+        width: 37%;
+        height: 60%;
+        margin-top: 5px; 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border-right: 1px solid #fff;
+        font-size: 12px;
+    }
+    .event .navbar_below .icon_three{
+        width: 25%;
+        height: 60%;
+        margin-top: 5px; 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        font-size: 12px;
+       
+    }    
+    .event .event_details{
+        width: 100%;
+        height: 100%
     }
 }
 

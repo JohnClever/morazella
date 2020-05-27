@@ -9,6 +9,12 @@
         document.querySelector('.header').style.display = 'none';
        
     });
+    document.querySelector('.toggleEvent').addEventListener('click', function () {
+        document.querySelector('.loader').style.display = 'block';
+        document.querySelector('.header').style.display = 'none';
+
+       
+    });
     document.querySelector('.toggleHome').addEventListener('click', function () {
         document.querySelector('.loader').style.display = 'block';
         document.querySelector('.select').style.display = 'none';
@@ -33,6 +39,22 @@
         document.querySelector('.details_politics').style.display = 'block';
         document.querySelector('.details_lifestyle').style.display = 'none';   
     });
+    document.querySelector('.toggleEventHome').addEventListener('click', function () {
+        document.querySelector('.loader').style.display = 'block';
+        document.querySelector('.event').style.display = 'none';
+       
+    });
+    document.querySelector('.toggleEventSer').addEventListener('click', function () {
+        document.querySelector('.loader').style.display = 'block';
+        document.querySelector('.select').style.display = 'none';
+        document.querySelector('.blog').style.display = 'none';
+       
+    });
+    document.querySelector('.toggleEventBlg').addEventListener('click', function () {
+        document.querySelector('.loader').style.display = 'block';
+        document.querySelector('.blog').style.display = 'none';
+       
+    });
     document.querySelector('.toggleBlogServ').addEventListener('click', function () {
         document.querySelector('.loader').style.display = 'block';
         document.querySelector('.blog').style.display = 'none';
@@ -49,7 +71,39 @@
         document.querySelector('.details_politics').style.display = 'block';
         document.querySelector('.details_lifestyle').style.display = 'none';   
     });
+    document.querySelector('.toggleEventServ').addEventListener('click', function () {
+        document.querySelector('.loader').style.display = 'block';
+        document.querySelector('.event').style.display = 'none';
+        document.querySelector('.news_s').style.padding = '0px';
+        document.querySelector('.news_p').style.padding = '2px';
+        document.querySelector('.news_l').style.padding = '0px';
+        document.querySelector('.news_h').style.padding = '0px';
+        document.querySelector('.news_s').style.margin_bottom = '0px';
+        document.querySelector('.news_p').style.margin_bottom = '10px';
+        document.querySelector('.news_l').style.margin_bottom = '0px';
+        document.querySelector('.news_h').style.margin_bottom = '0px';
+        document.querySelector('.details_sports').style.display = 'none';
+        document.querySelector('.details_health').style.display = 'none';
+        document.querySelector('.details_politics').style.display = 'block';
+        document.querySelector('.details_lifestyle').style.display = 'none';   
+    });
     document.querySelector('.toggleBlog').addEventListener('click', function () {
+        document.querySelector('.loader').style.display = 'block';
+        document.querySelector('.header').style.display = 'none';
+        document.querySelector('.news_s').style.padding = '0px';
+        document.querySelector('.news_p').style.padding = '2px';
+        document.querySelector('.news_l').style.padding = '0px';
+        document.querySelector('.news_h').style.padding = '0px';
+        document.querySelector('.news_s').style.margin_bottom = '0px';
+        document.querySelector('.news_p').style.margin_bottom = '10px';
+        document.querySelector('.news_l').style.margin_bottom = '0px';
+        document.querySelector('.news_h').style.margin_bottom = '0px';
+        document.querySelector('.details_sports').style.display = 'none';
+        document.querySelector('.details_health').style.display = 'none';
+        document.querySelector('.details_politics').style.display = 'block';
+        document.querySelector('.details_lifestyle').style.display = 'none';   
+    });
+    document.querySelector('.toggleEventBlog').addEventListener('click', function () {
         document.querySelector('.loader').style.display = 'block';
         document.querySelector('.header').style.display = 'none';
         document.querySelector('.news_s').style.padding = '0px';
@@ -157,6 +211,7 @@
     document.querySelector('.loader').style.display = 'none';
     document.querySelector('.header').style.display = 'none';
     document.querySelector('.select').style.display = 'block';
+    document.querySelector('.event').style.display = 'none';
     document.querySelector('.blog').style.display = 'none';
     document.querySelector('.header_footer').style.display = 'none';
 
@@ -165,6 +220,7 @@
         document.querySelector('.loader').style.display = 'none';
         document.querySelector('.header').style.display = 'block';
         document.querySelector('.select').style.display = 'none';
+        document.querySelector('.event').style.display = 'none';
         document.querySelector('.blog').style.display = 'none';
         document.querySelector('.header_footer').style.display = 'block';
 }
@@ -172,8 +228,17 @@
         document.querySelector('.loader').style.display = 'none';
         document.querySelector('.header').style.display = 'none';
         document.querySelector('.select').style.display = 'none';
+        document.querySelector('.event').style.display = 'none';
         document.querySelector('.blog').style.display = 'block';
         document.querySelector('.header_footer').style.display = 'block';
+}
+var eventFunc = function () {
+    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.header').style.display = 'none';
+    document.querySelector('.select').style.display = 'none';
+    document.querySelector('.event').style.display = 'block';
+    document.querySelector('.blog').style.display = 'none';
+    document.querySelector('.header_footer').style.display = 'block';
 }
     var toggleDetailsPolitics = function () {
         document.querySelector('.details_sports').style.display = 'none';
